@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "copy-with-reference",
+  "version": "0.0.1",
+  "description": "Copy with reference",
+  "author": "Kyohei Hamada",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "clipboardWrite",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": ["jquery-2.1.0.min.js", "background.js"]
+  }
+}
